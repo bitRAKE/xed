@@ -1,0 +1,33 @@
+vector,sdm_mnemonic,sdm_name,sdm_type,sdm_error_code,apm_mnemonic,apm_name,xed_mnemonic,xed_name,xed_type,finding,sdm_pdf_page,apm_pdf_page
+0,#DE,Divide Error,Fault,No,#DE,Divide-by-Zero-Error,#DE,Divide Error Exception,fault,,3352,710
+1,#DB,Debug Exception,Fault/Trap,No,#DB,Debug,#DB,Debug Exception,trap-or-fault,,3352,710
+2,,NMI Interrupt,Interrupt,No,#NMI,Non-Maskable-Interrupt,NMI,NMI interrupt,other,mnemonic differs,3352,710
+3,#BP,Breakpoint,Trap,No,#BP,Breakpoint,#BP,Breakpoint Exception,trap,,3352,710
+4,#OF,Overflow,Trap,No,#OF,Overflow,#OF,Overflow Exception,trap,,3352,710
+5,#BR,BOUND Range Exceeded,Fault,No,#BR,Bound-Range,#BR,Bound range exceeded exception,fault,,3352,710
+6,#UD,Invalid Opcode (Undefined Opcode),Fault,No,#UD,Invalid-Opcode,#UD,Invalid opcode exception,fault,,3352,710
+7,#NM,Device Not Available (No Math,Fault,No,#NM,Device-Not-Available,#NM,Device not available exception,fault,,3352,710
+8,#DF,Double Fault,Abort,Yes,#DF,Double-Fault,#DF,Double fault exception,abort,,3352,710
+9,,Coprocessor Segment Overrun,Fault,No,,Coprocessor-Segment-Overrun,#9,Coprocessor Segment Overrun - reserved,other,,3352,710
+10,#TS,Invalid TSS,Fault,Yes,#TS,Invalid-TSS,#TS,Invalid TSS exception,fault,,3352,710
+11,#NP,Segment Not Present,Fault,Yes,#NP,Segment-Not-Present,#NP,Segment not present,fault,,3352,710
+12,#SS,Stack-Segment Fault,Fault,Yes,#SS,Stack,#SS,Stack fault exception,fault,,3352,710
+13,#GP,General Protection,Fault,Yes,#GP,General-Protection,#GP,General protection exception,fault,,3352,710
+14,#PF,Page Fault,Fault,Yes,#PF,Page-Fault,#PF,Page fault exception,fault,,3352,710
+15,,(Intel reserved. Do not use.),,No,,Reserved,#15,reserved,reserved,,3352,710
+16,#MF,x87 FPU Floating-Point Error (Math,Fault,No,,#MF,#MF,x87 FPU floating point error,fault,,3352,710
+17,#AC,Alignment Check,Fault,Yes,#AC,Alignment-Check,#AC,Alignment check exception,fault,,3352,710
+18,#MC,Machine Check,Abort,No,#MC,Machine-Check,#MC,Machine-check exception,abort,,3352,710
+19,#XM,SIMD Floating-Point Exception,Fault,No,#XF,SIMD Floating-Point,#XF,SIMD floating point exception,fault,,3352,710
+20,#VE,Virtualization Exception,Fault,No,,Reserved,#20,reserved,reserved,XED marks reserved; vendor defines #VE,3352,710
+21,#CP,Control Protection Exception,Fault,Yes,#CP,Control-Protection Exception,#21,reserved,reserved,XED marks reserved; vendor defines #CP,3352,710
+22,,,,,,Reserved,#22,reserved,reserved,,3352,710
+23,,,,,,Reserved,#23,reserved,reserved,,3352,710
+24,,,,,,Reserved,#24,reserved,reserved,,3352,710
+25,,,,,,Reserved,#25,reserved,reserved,,3352,710
+26,,,,,,Reserved,#26,reserved,reserved,,3352,710
+27,,,,,,Reserved,#27,reserved,reserved,,3352,710
+28,,,,,#HV,Hypervisor Injection Exception,#28,reserved,reserved,XED marks reserved; vendor defines #HV,3352,710
+29,,,,,#VC,VMM Communication Exception,#29,reserved,reserved,XED marks reserved; vendor defines #VC,3352,710
+30,,,,,#SX,Security Exception,#30,reserved,reserved,XED marks reserved; vendor defines #SX,3352,710
+31,,,,,,Reserved,#31,reserved,reserved,,3352,710

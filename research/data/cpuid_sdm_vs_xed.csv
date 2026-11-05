@@ -1,0 +1,87 @@
+mnemonic,sdm_cpuid,xed_cpuid,missing_in_xed,extra_in_xed,sdm_page,xed_iclasses
+AESDEC128KL,klenabled,klenabled klsupported,,klsupported,739,AESDEC128KL
+AESDEC256KL,klenabled,klenabled klsupported,,klsupported,741,AESDEC256KL
+AESENC128KL,klenabled,klenabled klsupported,,klsupported,751,AESENC128KL
+AESENC256KL,klenabled,klenabled klsupported,,klsupported,753,AESENC256KL
+ENCODEKEY128,klenabled,klenabled klsupported,,klsupported,987,ENCODEKEY128
+ENCODEKEY256,klenabled,klenabled klsupported,,klsupported,989,ENCODEKEY256
+LDTILECFG,amxtile,ace acevsn1 amxtile apxf,,ace acevsn1 apxf,1248,LDTILECFG
+LOADIWKEY,er keylock,klenabled klsupported,er keylock,klsupported,1266,LOADIWKEY
+PABSB,ssse3,mmx ssse3,,mmx,1466,PABSB
+PABSD,ssse3,mmx ssse3,,mmx,1466,PABSD
+PABSW,ssse3,mmx ssse3,,mmx,1466,PABSW
+PADDQ,sse2,mmx sse2,,mmx,1490,PADDQ
+PALIGNR,ssse3,mmx ssse3,,mmx,1505,PALIGNR
+PAVGB,sse sse2,mmx sse2,,mmx,1516,PAVGB
+PAVGW,sse sse2,mmx sse2,,mmx,1516,PAVGW
+PEXTRW,sse sse2 sse4,mmx sse2,sse4,mmx,1578,PEXTRW
+PHADDD,ssse3,mmx ssse3,,mmx,1583,PHADDD
+PHADDSW,ssse3,mmx ssse3,,mmx,1581,PHADDSW
+PHADDW,ssse3,mmx ssse3,,mmx,1583,PHADDW
+PHSUBD,ssse3,mmx ssse3,,mmx,1591,PHSUBD
+PHSUBSW,ssse3,mmx ssse3,,mmx,1589,PHSUBSW
+PHSUBW,ssse3,mmx ssse3,,mmx,1591,PHSUBW
+PINSRW,sse sse2,mmx sse2,,mmx,1597,PINSRW
+PMADDUBSW,ssse3,mmx ssse3,,mmx,1599,PMADDUBSW
+PMAXSW,sse sse2,mmx sse2,,mmx,1605,PMAXSW
+PMAXUB,sse sse2,mmx sse2,,mmx,1612,PMAXUB
+PMINSW,sse sse2,mmx sse2,,mmx,1621,PMINSW
+PMINUB,sse sse2,mmx sse2,,mmx,1630,PMINUB
+PMULHRSW,ssse3,mmx ssse3,,mmx,1664,PMULHRSW
+PMULHUW,sse sse2,mmx sse2,,mmx,1668,PMULHUW
+PMULUDQ,sse2,mmx sse2,,mmx,1684,PMULUDQ
+PREFETCHW,prefetchw,(none: ISA_SET has n/a),prefetchw,,1705,PREFETCHW
+PSADBW,sse sse2,mmx sse2,,mmx,1707,PSADBW
+PSHUFB,ssse3,mmx ssse3,,mmx,1711,PSHUFB
+PSIGNB,ssse3,mmx ssse3,,mmx,1726,PSIGNB
+PSIGND,ssse3,mmx ssse3,,mmx,1726,PSIGND
+PSIGNW,ssse3,mmx ssse3,,mmx,1726,PSIGNW
+PSUBQ,sse2,mmx sse2,,mmx,1776,PSUBQ
+PTWRITE,ptwrite,intelpt ptwrite,,intelpt,1789,PTWRITE
+RDMSR,msrimm,apxf msrimm,,apxf,1833,RDMSR
+STTILECFG,amxtile,ace acevsn1 amxtile apxf,,ace acevsn1 apxf,1971,STTILECFG
+TDPBF16PS,amxbf16,amxbf16 amxbf16mirrored amxtile,,amxtile,2004,TDPBF16PS
+TDPBSSD,amxint8,amxint8 amxint8mirrored amxtile,,amxtile,2006,TDPBSSD
+TDPBSUD,amxint8,amxint8 amxint8mirrored amxtile,,amxtile,2006,TDPBSUD
+TDPBUSD,amxint8,amxint8 amxint8mirrored amxtile,,amxtile,2006,TDPBUSD
+TDPBUUD,amxint8,amxint8 amxint8mirrored amxtile,,amxtile,2006,TDPBUUD
+TDPFP16PS,amxfp16,amxfp16 amxfp16mirrored amxtile,,amxtile,2008,TDPFP16PS
+TILELOADD,amxtile,amxtile apxf,,apxf,2013,TILELOADD
+TILELOADDT1,amxtile,amxtile apxf,,apxf,2013,TILELOADDT1
+TILERELEASE,amxtile,ace acevsn1 amxtile,,ace acevsn1,2015,TILERELEASE
+TILESTORED,amxtile,amxtile apxf,,apxf,2016,TILESTORED
+TILEZERO,amxtile,ace acevsn1 amxtile,,ace acevsn1,2017,TILEZERO
+URDMSR,usermsr,apxf usermsr,,apxf,2049,URDMSR
+UWRMSR,usermsr,apxf usermsr,,apxf,2051,UWRMSR
+VAESIMC,aes avx both flags,aes avx,both flags,,761,VAESIMC
+VAESKEYGENASSIST,aes avx both flags,aes avx,both flags,,762,VAESKEYGENASSIST
+VCVTNE2PS2BF16,avx10ver1 avx512f avx512vl bf16,avx10enabled avx10ver1 bf16,avx512f avx512vl,,2088,VCVTNE2PS2BF16
+VCVTNEPS2BF16,avx10ver1 avx512f avx512vl avxne bf16 convert,avx10enabled avx10ver1 avxneconvert bf16,avx512f avx512vl,,2094,VCVTNEPS2BF16
+VCVTUSI2SH,avx512fp16,avx10enabled avx10ver1 avx512fp16,,avx10ver1,2202,VCVTUSI2SH
+VDPBF16PS,avx10ver1 avx512f avx512vl bf16,avx10enabled avx10ver1 bf16,avx512f avx512vl,,2216,VDPBF16PS
+VGATHERDPD,avx1011 avx10ver1 avx2 avx512f avx512vl r,avx10enabled avx10ver1 avx2 avx512f avx512vl,avx1011,,2414,VGATHERDPD
+VMOVW,avx10ver1 avx512fp16,avx10enabled avx10ver1 avx10ver2 avx512fp16,,avx10ver2,2485,VMOVW
+VP2INTERSECTD,avx512f avx512vl avx512vp2intersect,avx512vl avx512vp2intersect,avx512f,,2489,VP2INTERSECTD
+VP2INTERSECTQ,avx512f avx512vl avx512vp2intersect,avx512vl avx512vp2intersect,avx512f,,2489,VP2INTERSECTQ
+VPDPBSSD,avxvnniint8,avx10enabled avx10v1aux avx10ver2 avxvnniint8,,avx10v1aux avx10ver2,2534,VPDPBSSD
+VPDPBSSDS,avxvnniint8,avx10enabled avx10v1aux avx10ver2 avxvnniint8,,avx10v1aux avx10ver2,2534,VPDPBSSDS
+VPDPBSUD,avxvnniint8,avx10enabled avx10v1aux avx10ver2 avxvnniint8,,avx10v1aux avx10ver2,2534,VPDPBSUD
+VPDPBSUDS,avxvnniint8,avx10enabled avx10v1aux avx10ver2 avxvnniint8,,avx10v1aux avx10ver2,2534,VPDPBSUDS
+VPDPBUUD,avxvnniint8,avx10enabled avx10v1aux avx10ver2 avxvnniint8,,avx10v1aux avx10ver2,2534,VPDPBUUD
+VPDPBUUDS,avxvnniint8,avx10enabled avx10v1aux avx10ver2 avxvnniint8,,avx10v1aux avx10ver2,2535,VPDPBUUDS
+VPDPWSUD,avxvnniint16,avx10enabled avx10v1aux avx10ver2 avxvnniint16,,avx10v1aux avx10ver2,2547,VPDPWSUD
+VPDPWSUDS,avxvnniint16,avx10enabled avx10v1aux avx10ver2 avxvnniint16,,avx10v1aux avx10ver2,2547,VPDPWSUDS
+VPDPWUSD,avxvnniint16,avx10enabled avx10v1aux avx10ver2 avxvnniint16,,avx10v1aux avx10ver2,2547,VPDPWUSD
+VPDPWUSDS,avxvnniint16,avx10enabled avx10v1aux avx10ver2 avxvnniint16,,avx10v1aux avx10ver2,2547,VPDPWUSDS
+VPDPWUUD,avxvnniint16,avx10enabled avx10v1aux avx10ver2 avxvnniint16,,avx10v1aux avx10ver2,2547,VPDPWUUD
+VPDPWUUDS,avxvnniint16,avx10enabled avx10v1aux avx10ver2 avxvnniint16,,avx10v1aux avx10ver2,2548,VPDPWUUDS
+VPROLVD,avx1011 avx10ver1 avx512f avx512vl,avx10enabled avx10ver1 avx512f avx512vl,avx1011,,2666,VPROLVD
+VPRORVD,avx1011 avx10ver1 avx512f avx512vl,avx10enabled avx10ver1 avx512f avx512vl,avx1011,,2670,VPRORVD
+VPTESTNMB,avx10ver1 avx512bw avx512f avx512vl,avx10enabled avx10ver1 avx512bw avx512vl,avx512f,,2713,VPTESTNMB
+VPTESTNMW,avx10ver1 avx512bw avx512f avx512vl,avx10enabled avx10ver1 avx512bw avx512vl,avx512f,,2713,VPTESTNMW
+VSUBPH,avx1011 avx10ver1 avx512fp16 avx512vl,avx10enabled avx10ver1 avx512fp16 avx512vl,avx1011,,2824,VSUBPH
+WRMSRNS,msrimm wrmsrns,apxf msrimm wrmsrns,,apxf,2845,WRMSRNS
+XRSTORS,xss,xsaves,xss,xsaves,2887,XRSTORS
+XRSTORS64,xss,xsaves,xss,xsaves,2887,XRSTORS64
+XSAVES,xss,xsaves,xss,xsaves,2900,XSAVES
+XSAVES64,xss,xsaves,xss,xsaves,2900,XSAVES64

@@ -1,0 +1,151 @@
+mnemonic,row_label,source,pdf_page,AF,CF,DF,IF,NT,OF,PF,RF,SF,TF,ZF
+AAA,AAA,SDM325462-Vol1-TableA-2,537,tst+mod,mod,,,,u,u,,u,,u
+AAD,AAD,SDM325462-Vol1-TableA-2,537,u,u,,,,u,mod,,mod,,mod
+AAM,AAM,SDM325462-Vol1-TableA-2,537,u,u,,,,u,mod,,mod,,mod
+AAS,AAS,SDM325462-Vol1-TableA-2,537,tst+mod,mod,,,,u,u,,u,,u
+ADC,ADC,SDM325462-Vol1-TableA-2,537,mod,tst+mod,,,,mod,mod,,mod,,mod
+ADD,ADD,SDM325462-Vol1-TableA-2,537,mod,mod,,,,mod,mod,,mod,,mod
+AND,AND,SDM325462-Vol1-TableA-2,537,u,0,,,,0,mod,,mod,,mod
+ARPL,ARPL,SDM325462-Vol1-TableA-2,537,,,,,,,,,,,mod
+BOUND,BOUND,SDM325462-Vol1-TableA-2,537,,,,,,,,,,,
+BSF,BSF/BSR,SDM325462-Vol1-TableA-2,537,0,0,,,,0,mod,,0,,mod
+BSR,BSF/BSR,SDM325462-Vol1-TableA-2,537,0,0,,,,0,mod,,0,,mod
+BSWAP,BSWAP,SDM325462-Vol1-TableA-2,537,,,,,,,,,,,
+BT,BT/BTS/BTR/BTC,SDM325462-Vol1-TableA-2,537,u,mod,,,,u,u,,u,,
+BTS,BT/BTS/BTR/BTC,SDM325462-Vol1-TableA-2,537,u,mod,,,,u,u,,u,,
+BTR,BT/BTS/BTR/BTC,SDM325462-Vol1-TableA-2,537,u,mod,,,,u,u,,u,,
+BTC,BT/BTS/BTR/BTC,SDM325462-Vol1-TableA-2,537,u,mod,,,,u,u,,u,,
+CALL,CALL,SDM325462-Vol1-TableA-2,537,,,,,,,,,,,
+CBW,CBW,SDM325462-Vol1-TableA-2,537,,,,,,,,,,,
+CLC,CLC,SDM325462-Vol1-TableA-2,537,,0,,,,,,,,,
+CLD,CLD,SDM325462-Vol1-TableA-2,537,,,0,,,,,,,,
+CLI,CLI,SDM325462-Vol1-TableA-2,537,,,,0,,,,,,,
+CLTS,CLTS,SDM325462-Vol1-TableA-2,537,,,,,,,,,,,
+CMC,CMC,SDM325462-Vol1-TableA-2,537,,mod,,,,,,,,,
+CMOVcc,CMOVcc,SDM325462-Vol1-TableA-2,537,,tst,,,,tst,tst,,tst,,tst
+CMP,CMP,SDM325462-Vol1-TableA-2,537,mod,mod,,,,mod,mod,,mod,,mod
+CMPS,CMPS,SDM325462-Vol1-TableA-2,538,mod,mod,tst,,,mod,mod,,mod,,mod
+CMPXCHG,CMPXCHG,SDM325462-Vol1-TableA-2,538,mod,mod,,,,mod,mod,,mod,,mod
+CMPXCHG8B,CMPXCHG8B,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,mod
+COMISD,COMISD,SDM325462-Vol1-TableA-2,538,0,mod,,,,0,mod,,0,,mod
+COMISS,COMISS,SDM325462-Vol1-TableA-2,538,0,mod,,,,0,mod,,0,,mod
+CPUID,CPUID,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+CWD,CWD,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+DAA,DAA,SDM325462-Vol1-TableA-2,538,tst+mod,tst+mod,,,,u,mod,,mod,,mod
+DAS,DAS,SDM325462-Vol1-TableA-2,538,tst+mod,tst+mod,,,,u,mod,,mod,,mod
+DEC,DEC,SDM325462-Vol1-TableA-2,538,mod,,,,,mod,mod,,mod,,mod
+DIV,DIV,SDM325462-Vol1-TableA-2,538,u,u,,,,u,u,,u,,u
+ENTER,ENTER,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+ESC,ESC,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+FCMOVcc,FCMOVcc,SDM325462-Vol1-TableA-2,538,,tst,,,,,tst,,,,tst
+FCOMI,"FCOMI, FCOMIP, FUCOMI, FUCOMIP",SDM325462-Vol1-TableA-2,538,0,mod,,,,0,mod,,0,,mod
+FCOMIP,"FCOMI, FCOMIP, FUCOMI, FUCOMIP",SDM325462-Vol1-TableA-2,538,0,mod,,,,0,mod,,0,,mod
+FUCOMI,"FCOMI, FCOMIP, FUCOMI, FUCOMIP",SDM325462-Vol1-TableA-2,538,0,mod,,,,0,mod,,0,,mod
+FUCOMIP,"FCOMI, FCOMIP, FUCOMI, FUCOMIP",SDM325462-Vol1-TableA-2,538,0,mod,,,,0,mod,,0,,mod
+HLT,HLT,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+IDIV,IDIV,SDM325462-Vol1-TableA-2,538,u,u,,,,u,u,,u,,u
+IMUL,IMUL,SDM325462-Vol1-TableA-2,538,u,mod,,,,mod,u,,u,,u
+IN,IN,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+INC,INC,SDM325462-Vol1-TableA-2,538,mod,,,,,mod,mod,,mod,,mod
+INS,INS,SDM325462-Vol1-TableA-2,538,,,tst,,,,,,,,
+INT,INT,SDM325462-Vol1-TableA-2,538,,,,,0,,,,,0,
+INTO,INTO,SDM325462-Vol1-TableA-2,538,,,,,0,tst,,,,0,
+INVD,INVD,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+INVLPG,INVLPG,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+UCOMISD,UCOMISD,SDM325462-Vol1-TableA-2,538,0,mod,,,,0,mod,,0,,mod
+UCOMISS,UCOMISS,SDM325462-Vol1-TableA-2,538,0,mod,,,,0,mod,,0,,mod
+IRET,IRET,SDM325462-Vol1-TableA-2,538,pop,pop,pop,pop,tst,pop,pop,,pop,pop,pop
+Jcc,Jcc,SDM325462-Vol1-TableA-2,538,,tst,,,,tst,tst,,tst,,tst
+JCXZ,JCXZ,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+JMP,JMP,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+LAHF,LAHF,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+LAR,LAR,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,mod
+LDS,LDS/LES/LSS/LFS/LGS,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+LES,LDS/LES/LSS/LFS/LGS,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+LSS,LDS/LES/LSS/LFS/LGS,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+LFS,LDS/LES/LSS/LFS/LGS,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+LGS,LDS/LES/LSS/LFS/LGS,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+LEA,LEA,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+LEAVE,LEAVE,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+LGDT,LGDT/LIDT/LLDT/LMSW,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+LIDT,LGDT/LIDT/LLDT/LMSW,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+LLDT,LGDT/LIDT/LLDT/LMSW,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+LMSW,LGDT/LIDT/LLDT/LMSW,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+LOCK,LOCK,SDM325462-Vol1-TableA-2,538,,,,,,,,,,,
+LODS,LODS,SDM325462-Vol1-TableA-2,539,,,tst,,,,,,,,
+LOOP,LOOP,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+LOOPE,LOOPE/LOOPNE,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,tst
+LOOPNE,LOOPE/LOOPNE,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,tst
+LSL,LSL,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,mod
+LTR,LTR,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+MONITOR,MONITOR,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+MWAIT,MWAIT,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+MOV,MOV,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+MOV control/debug/test,"MOV control, debug, test",SDM325462-Vol1-TableA-2,539,u,u,,,,u,u,,u,,u
+MOVS,MOVS,SDM325462-Vol1-TableA-2,539,,,tst,,,,,,,,
+MOVSX,MOVSX/MOVZX,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+MOVZX,MOVSX/MOVZX,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+MUL,MUL,SDM325462-Vol1-TableA-2,539,u,mod,,,,mod,u,,u,,u
+NEG,NEG,SDM325462-Vol1-TableA-2,539,mod,mod,,,,mod,mod,,mod,,mod
+NOP,NOP,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+NOT,NOT,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+OR,OR,SDM325462-Vol1-TableA-2,539,u,0,,,,0,mod,,mod,,mod
+OUT,OUT,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+OUTS,OUTS,SDM325462-Vol1-TableA-2,539,,,tst,,,,,,,,
+POP,POP/POPA,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+POPA,POP/POPA,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+POPF,POPF,SDM325462-Vol1-TableA-2,539,pop,pop,pop,pop,pop,pop,pop,,pop,pop,pop
+PUSH,PUSH/PUSHA/PUSHF,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+PUSHA,PUSH/PUSHA/PUSHF,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+PUSHF,PUSH/PUSHA/PUSHF,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+RCL 1,RCL/RCR 1,SDM325462-Vol1-TableA-2,539,,tst+mod,,,,mod,,,,,
+RCR 1,RCL/RCR 1,SDM325462-Vol1-TableA-2,539,,tst+mod,,,,mod,,,,,
+RCL count,RCL/RCR count,SDM325462-Vol1-TableA-2,539,,tst+mod,,,,u,,,,,
+RCR count,RCL/RCR count,SDM325462-Vol1-TableA-2,539,,tst+mod,,,,u,,,,,
+RDMSR,RDMSR,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+RDPMC,RDPMC,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+RDTSC,RDTSC,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+REP,REP/REPE/REPNE,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+REPE,REP/REPE/REPNE,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+REPNE,REP/REPE/REPNE,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+RET,RET,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+ROL 1,ROL/ROR 1,SDM325462-Vol1-TableA-2,539,,mod,,,,mod,,,,,
+ROR 1,ROL/ROR 1,SDM325462-Vol1-TableA-2,539,,mod,,,,mod,,,,,
+ROL count,ROL/ROR count,SDM325462-Vol1-TableA-2,539,,mod,,,,u,,,,,
+ROR count,ROL/ROR count,SDM325462-Vol1-TableA-2,539,,mod,,,,u,,,,,
+RSM,RSM,SDM325462-Vol1-TableA-2,539,mod,mod,mod,mod,mod,mod,mod,mod,mod,mod,mod
+SAHF,SAHF,SDM325462-Vol1-TableA-2,539,pop,pop,,,,,pop,,pop,,pop
+SAL 1,SAL/SAR/SHL/SHR 1,SDM325462-Vol1-TableA-2,539,u,mod,,,,mod,mod,,mod,,mod
+SAR 1,SAL/SAR/SHL/SHR 1,SDM325462-Vol1-TableA-2,539,u,mod,,,,mod,mod,,mod,,mod
+SHL 1,SAL/SAR/SHL/SHR 1,SDM325462-Vol1-TableA-2,539,u,mod,,,,mod,mod,,mod,,mod
+SHR 1,SAL/SAR/SHL/SHR 1,SDM325462-Vol1-TableA-2,539,u,mod,,,,mod,mod,,mod,,mod
+SAL count,SAL/SAR/SHL/SHR count,SDM325462-Vol1-TableA-2,539,u,mod,,,,u,mod,,mod,,mod
+SAR count,SAL/SAR/SHL/SHR count,SDM325462-Vol1-TableA-2,539,u,mod,,,,u,mod,,mod,,mod
+SHL count,SAL/SAR/SHL/SHR count,SDM325462-Vol1-TableA-2,539,u,mod,,,,u,mod,,mod,,mod
+SHR count,SAL/SAR/SHL/SHR count,SDM325462-Vol1-TableA-2,539,u,mod,,,,u,mod,,mod,,mod
+SBB,SBB,SDM325462-Vol1-TableA-2,539,mod,tst+mod,,,,mod,mod,,mod,,mod
+SCAS,SCAS,SDM325462-Vol1-TableA-2,539,mod,mod,tst,,,mod,mod,,mod,,mod
+SETcc,SETcc,SDM325462-Vol1-TableA-2,539,,tst,,,,tst,tst,,tst,,tst
+SGDT,SGDT/SIDT/SLDT/SMSW,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+SIDT,SGDT/SIDT/SLDT/SMSW,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+SLDT,SGDT/SIDT/SLDT/SMSW,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+SMSW,SGDT/SIDT/SLDT/SMSW,SDM325462-Vol1-TableA-2,539,,,,,,,,,,,
+SHLD,SHLD/SHRD,SDM325462-Vol1-TableA-2,540,u,mod,,,,u,mod,,mod,,mod
+SHRD,SHLD/SHRD,SDM325462-Vol1-TableA-2,540,u,mod,,,,u,mod,,mod,,mod
+STC,STC,SDM325462-Vol1-TableA-2,540,,1,,,,,,,,,
+STD,STD,SDM325462-Vol1-TableA-2,540,,,1,,,,,,,,
+STI,STI,SDM325462-Vol1-TableA-2,540,,,,1,,,,,,,
+STOS,STOS,SDM325462-Vol1-TableA-2,540,,,tst,,,,,,,,
+STR,STR,SDM325462-Vol1-TableA-2,540,,,,,,,,,,,
+SUB,SUB,SDM325462-Vol1-TableA-2,540,mod,mod,,,,mod,mod,,mod,,mod
+TEST,TEST,SDM325462-Vol1-TableA-2,540,u,0,,,,0,mod,,mod,,mod
+UD,UD,SDM325462-Vol1-TableA-2,540,,,,,,,,,,,
+VERR,VERR/VERRW,SDM325462-Vol1-TableA-2,540,,,,,,,,,,,mod
+VERRW,VERR/VERRW,SDM325462-Vol1-TableA-2,540,,,,,,,,,,,mod
+WAIT,WAIT,SDM325462-Vol1-TableA-2,540,,,,,,,,,,,
+WBINVD,WBINVD,SDM325462-Vol1-TableA-2,540,,,,,,,,,,,
+WRMSR,WRMSR,SDM325462-Vol1-TableA-2,540,,,,,,,,,,,
+XADD,XADD,SDM325462-Vol1-TableA-2,540,mod,mod,,,,mod,mod,,mod,,mod
+XCHG,XCHG,SDM325462-Vol1-TableA-2,540,,,,,,,,,,,
+XLAT,XLAT,SDM325462-Vol1-TableA-2,540,,,,,,,,,,,
+XOR,XOR,SDM325462-Vol1-TableA-2,540,u,0,,,,0,mod,,mod,,mod

@@ -1,0 +1,109 @@
+mnemonic,row_label,source,pdf_page,AC,AF,CF,DF,ID,IF,IOPL,NT,OF,PF,RF,SF,TF,VIF,VIP,VM,ZF
+AAA,AAA/AAS,APM24594-TableF-1,2009,,tst+mod,mod,,,,,,u,u,,u,,,,,u
+AAS,AAA/AAS,APM24594-TableF-1,2009,,tst+mod,mod,,,,,,u,u,,u,,,,,u
+AAD,AAD/AAM,APM24594-TableF-1,2009,,u,u,,,,,,u,mod,,mod,,,,,mod
+AAM,AAD/AAM,APM24594-TableF-1,2009,,u,u,,,,,,u,mod,,mod,,,,,mod
+ADC,ADC,APM24594-TableF-1,2009,,mod,tst+mod,,,,,,mod,mod,,mod,,,,,mod
+ADD,ADD,APM24594-TableF-1,2009,,mod,mod,,,,,,mod,mod,,mod,,,,,mod
+AND,AND,APM24594-TableF-1,2009,,u,0,,,,,,0,mod,,mod,,,,,mod
+ARPL,ARPL,APM24594-TableF-1,2009,,,,,,,,,,,,,,,,,mod
+BSF,BSF/BSR,APM24594-TableF-1,2009,,u,u,,,,,,u,u,,u,,,,,mod
+BSR,BSF/BSR,APM24594-TableF-1,2009,,u,u,,,,,,u,u,,u,,,,,mod
+BT,BT/BTC/BTR/BTS,APM24594-TableF-1,2009,,u,mod,,,,,,u,u,,u,,,,,u
+BTC,BT/BTC/BTR/BTS,APM24594-TableF-1,2009,,u,mod,,,,,,u,u,,u,,,,,u
+BTR,BT/BTC/BTR/BTS,APM24594-TableF-1,2009,,u,mod,,,,,,u,u,,u,,,,,u
+BTS,BT/BTC/BTR/BTS,APM24594-TableF-1,2009,,u,mod,,,,,,u,u,,u,,,,,u
+BZHI,BZHI,APM24594-TableF-1,2009,,u,mod,,,,,,0,u,,mod,,,,,mod
+CLC,CLC,APM24594-TableF-1,2009,,,0,,,,,,,,,,,,,,
+CLD,CLD,APM24594-TableF-1,2009,,,,0,,,,,,,,,,,,,
+CLI,CLI,APM24594-TableF-1,2009,,,,,,mod,tst,,,,,,,mod,,,
+CMC,CMC,APM24594-TableF-1,2009,,,mod,,,,,,,,,,,,,,
+CMOVcc,CMOVcc,APM24594-TableF-1,2009,,,tst,,,,,,tst,tst,,tst,,,,,tst
+CMP,CMP,APM24594-TableF-1,2010,,mod,mod,,,,,,mod,mod,,mod,,,,,mod
+CMPSx,CMPSx,APM24594-TableF-1,2010,,mod,mod,tst,,,,,mod,mod,,mod,,,,,mod
+CMPXCHG,CMPXCHG,APM24594-TableF-1,2010,,mod,mod,,,,,,mod,mod,,mod,,,,,mod
+CMPXCHG8B,CMPXCHG8B,APM24594-TableF-1,2010,,,,,,,,,,,,,,,,,mod
+CMPXCHG16B,CMPXCHG16B,APM24594-TableF-1,2010,,,,,,,,,,,,,,,,,mod
+COMISD,COMISD/COMISS,APM24594-TableF-1,2010,,0,mod,,,,,,0,mod,,0,,,,,mod
+COMISS,COMISD/COMISS,APM24594-TableF-1,2010,,0,mod,,,,,,0,mod,,0,,,,,mod
+DAA,DAA/DAS,APM24594-TableF-1,2010,,tst+mod,tst+mod,,,,,,u,mod,,mod,,,,,mod
+DAS,DAA/DAS,APM24594-TableF-1,2010,,tst+mod,tst+mod,,,,,,u,mod,,mod,,,,,mod
+DEC,DEC,APM24594-TableF-1,2010,,mod,,,,,,,mod,mod,,mod,,,,,mod
+DIV,DIV,APM24594-TableF-1,2010,,u,u,,,,,,u,u,,u,,,,,u
+FCMOVcc,FCMOVcc,APM24594-TableF-1,2010,,,tst,,,,,,,tst,,,,,,,tst
+FCOMI,FCOMI/FCOMIP/FUCOMI/FUCOMIP,APM24594-TableF-1,2010,,,mod,,,,,,,mod,,,,,,,mod
+FCOMIP,FCOMI/FCOMIP/FUCOMI/FUCOMIP,APM24594-TableF-1,2010,,,mod,,,,,,,mod,,,,,,,mod
+FUCOMI,FCOMI/FCOMIP/FUCOMI/FUCOMIP,APM24594-TableF-1,2010,,,mod,,,,,,,mod,,,,,,,mod
+FUCOMIP,FCOMI/FCOMIP/FUCOMI/FUCOMIP,APM24594-TableF-1,2010,,,mod,,,,,,,mod,,,,,,,mod
+IDIV,IDIV,APM24594-TableF-1,2010,,u,u,,,,,,u,u,,u,,,,,u
+IMUL,IMUL,APM24594-TableF-1,2010,,u,mod,,,,,,mod,u,,u,,,,,u
+INC,INC,APM24594-TableF-1,2010,,mod,,,,,,,mod,mod,,mod,,,,,mod
+IN,IN,APM24594-TableF-1,2010,,,,,,,tst,,,,,,,,,,
+INSx,INSx,APM24594-TableF-1,2010,,,,tst,,,tst,,,,,,,,,,
+INT,INT/INT 3,APM24594-TableF-1,2010,mod,,,,,mod,tst,mod,,,0,,0,mod,,tst+mod,
+INT 3,INT/INT 3,APM24594-TableF-1,2010,mod,,,,,mod,tst,mod,,,0,,0,mod,,tst+mod,
+INTO,INTO,APM24594-TableF-1,2010,mod,,,,,mod,tst,mod,tst,,0,,mod,,,tst+mod,
+IRETx,IRETx,APM24594-TableF-1,2010,pop,pop,pop,pop,pop,pop,tst+pop,tst+pop,pop,pop,pop,pop,pop,pop,pop,tst+pop,pop
+Jcc,Jcc,APM24594-TableF-1,2010,,,tst,,,,,,tst,tst,,tst,,,,,tst
+LAR,LAR,APM24594-TableF-1,2010,,,,,,,,,,,,,,,,,mod
+LODSx,LODSx,APM24594-TableF-1,2010,,,,tst,,,,,,,,,,,,,
+LOOPE,LOOPE/LOOPNE,APM24594-TableF-1,2010,,,,,,,,,,,,,,,,,tst
+LOOPNE,LOOPE/LOOPNE,APM24594-TableF-1,2010,,,,,,,,,,,,,,,,,tst
+LSL,LSL,APM24594-TableF-1,2010,,,,,,,,,,,,,,,,,mod
+LZCNT,LZCNT,APM24594-TableF-1,2010,,u,mod,,,,,,u,u,,u,,,,,mod
+MOVSx,MOVSx,APM24594-TableF-1,2010,,,,tst,,,,,,,,,,,,,
+MUL,MUL,APM24594-TableF-1,2010,,u,mod,,,,,,mod,u,,u,,,,,u
+NEG,NEG,APM24594-TableF-1,2010,,mod,mod,,,,,,mod,mod,,mod,,,,,mod
+OR,OR,APM24594-TableF-1,2010,,u,0,,,,,,0,mod,,mod,,,,,mod
+OUT,OUT,APM24594-TableF-1,2010,,,,,,,tst,,,,,,,,,,
+OUTSx,OUTSx,APM24594-TableF-1,2010,,,,tst,,,tst,,,,,,,,,,
+PSMASH,PSMASH,APM24594-TableF-1,2010,,mod,,,,,,,mod,mod,,mod,,,,,mod
+PVALIDATE,PVALIDATE,APM24594-TableF-1,2010,,mod,mod,,,,,,mod,mod,,mod,,,,,mod
+POPCNT,POPCNT,APM24594-TableF-1,2011,,0,0,,,,,,0,0,,0,,,,,mod
+POPFx,POPFx,APM24594-TableF-1,2011,pop,pop,pop,pop,pop,pop,tst+pop,pop,pop,pop,0,pop,pop,mod,tst,tst,pop
+RCL 1,RCL 1,APM24594-TableF-1,2011,,,tst+mod,,,,,,mod,,,,,,,,
+RCL count,RCL count,APM24594-TableF-1,2011,,,tst+mod,,,,,,u,,,,,,,,
+RCR 1,RCR 1,APM24594-TableF-1,2011,,,tst+mod,,,,,,mod,,,,,,,,
+RCR count,RCR count,APM24594-TableF-1,2011,,,tst+mod,,,,,,u,,,,,,,,
+RMPADJUST,RMPADJUST,APM24594-TableF-1,2011,,mod,,,,,,,mod,mod,,mod,,,,,mod
+RMPCHKD,RMPCHKD,APM24594-TableF-1,2011,,u,mod,,,,,,u,u,,u,,,,,mod
+RMPOPT,RMPOPT,APM24594-TableF-1,2011,,,mod,,,,,,,,,,,,,,
+RMPQUERY,RMPQUERY,APM24594-TableF-1,2011,,mod,,,,,,,mod,mod,,mod,,,,,mod
+RMPREAD,RMPREAD,APM24594-TableF-1,2011,,mod,,,,,,,mod,mod,,mod,,,,,mod
+RMPUPDATE,RMPUPDATE,APM24594-TableF-1,2011,,mod,,,,,,,mod,mod,,mod,,,,,mod
+ROL 1,ROL 1,APM24594-TableF-1,2011,,,mod,,,,,,mod,,,,,,,,
+ROL count,ROL count,APM24594-TableF-1,2011,,,mod,,,,,,u,,,,,,,,
+ROR 1,ROR 1,APM24594-TableF-1,2011,,,mod,,,,,,mod,,,,,,,,
+ROR count,ROR count,APM24594-TableF-1,2011,,,mod,,,,,,u,,,,,,,,
+RSM,RSM,APM24594-TableF-1,2011,mod,mod,mod,mod,mod,mod,mod,mod,mod,mod,mod,mod,mod,mod,mod,mod,mod
+SAHF,SAHF,APM24594-TableF-1,2011,,ah,ah,,,,,,,ah,,ah,,,,,ah
+SHL 1,SHL/SAL 1,APM24594-TableF-1,2011,,u,mod,,,,,,mod,mod,,mod,,,,,mod
+SAL 1,SHL/SAL 1,APM24594-TableF-1,2011,,u,mod,,,,,,mod,mod,,mod,,,,,mod
+SHL count,SHL/SAL count,APM24594-TableF-1,2011,,u,mod,,,,,,u,mod,,mod,,,,,mod
+SAL count,SHL/SAL count,APM24594-TableF-1,2011,,u,mod,,,,,,u,mod,,mod,,,,,mod
+SAR 1,SAR 1,APM24594-TableF-1,2011,,u,mod,,,,,,mod,mod,,mod,,,,,mod
+SAR count,SAR count,APM24594-TableF-1,2011,,u,mod,,,,,,u,mod,,mod,,,,,mod
+SBB,SBB,APM24594-TableF-1,2011,,mod,tst+mod,,,,,,mod,mod,,mod,,,,,mod
+SCASx,SCASx,APM24594-TableF-1,2011,,mod,mod,tst,,,,,mod,mod,,mod,,,,,mod
+SETcc,SETcc,APM24594-TableF-1,2011,,,tst,,,,,,tst,tst,,tst,,,,,tst
+SHLD 1,SHLD 1/SHRD 1,APM24594-TableF-1,2011,,u,mod,,,,,,mod,mod,,mod,,,,,mod
+SHRD 1,SHLD 1/SHRD 1,APM24594-TableF-1,2011,,u,mod,,,,,,mod,mod,,mod,,,,,mod
+SHLD count,SHLD count/SHRD count,APM24594-TableF-1,2011,,u,mod,,,,,,u,mod,,mod,,,,,mod
+SHRD count,SHLD count/SHRD count,APM24594-TableF-1,2011,,u,mod,,,,,,u,mod,,mod,,,,,mod
+SHR 1,SHR 1,APM24594-TableF-1,2011,,u,mod,,,,,,mod,mod,,mod,,,,,mod
+SHR count,SHR count,APM24594-TableF-1,2011,,u,mod,,,,,,u,mod,,mod,,,,,mod
+STC,STC,APM24594-TableF-1,2011,,,1,,,,,,,,,,,,,,
+STD,STD,APM24594-TableF-1,2011,,,,1,,,,,,,,,,,,,
+STI,STI,APM24594-TableF-1,2011,,,,,,mod,tst,,,,,,,mod,,,
+STOSx,STOSx,APM24594-TableF-1,2011,,,,tst,,,,,,,,,,,,,
+SUB,SUB,APM24594-TableF-1,2012,,mod,mod,,,,,,mod,mod,,mod,,,,,mod
+SYSCALL,SYSCALL,APM24594-TableF-1,2012,mod,mod,mod,mod,mod,mod,mod,mod,mod,mod,0,mod,mod,mod,mod,0,mod
+SYSENTER,SYSENTER,APM24594-TableF-1,2012,,,,,,0,,,,,0,,,,,0,
+SYSRET,SYSRET,APM24594-TableF-1,2012,mod,mod,mod,mod,mod,mod,mod,mod,mod,mod,0,mod,mod,mod,mod,,mod
+TEST,TEST,APM24594-TableF-1,2012,,u,0,,,,,,0,mod,,mod,,,,,mod
+UCOMISD,UCOMISD/UCOMISS,APM24594-TableF-1,2012,,0,mod,,,,,,0,mod,,0,,,,,mod
+UCOMISS,UCOMISD/UCOMISS,APM24594-TableF-1,2012,,0,mod,,,,,,0,mod,,0,,,,,mod
+VERR,VERR/VERW,APM24594-TableF-1,2012,,,,,,,,,,,,,,,,,mod
+VERW,VERR/VERW,APM24594-TableF-1,2012,,,,,,,,,,,,,,,,,mod
+XADD,XADD,APM24594-TableF-1,2012,,mod,mod,,,,,,mod,mod,,mod,,,,,mod
+XOR,XOR,APM24594-TableF-1,2012,,u,0,,,,,,0,mod,,mod,,,,,mod

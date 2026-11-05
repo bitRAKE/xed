@@ -1,0 +1,34 @@
+instruction,leaf,eax,sdm_page,sdm_flags,xed_flags,xed_records,sdm_text
+GETSEC,CAPABILITIES,0,2913,none,,1,None.
+GETSEC,ENTERACCS,2,2916,,,1,All flags are cleared.
+GETSEC,EXITAC,3,2924,none,,1,None. SAFER MODE EXTENSIONS REFERENCE
+GETSEC,SENTER,4,2928,,,1,All flags are cleared.
+GETSEC,SEXIT,5,2937,,,1,"ILP: None. RLPs: All flags are modified for an RLP. returning to wait-for-SIPI state, none otherwise."
+GETSEC,PARAMETERS,6,2940,none,,1,None.
+GETSEC,SMCTRL,7,2944,none,,1,None.
+GETSEC,WAKEUP,8,2947,none,,1,None.
+ENCLS,EADD,01H,4559,none,,1,None
+ENCLS,EAUG,0DH,4564,none,,1,None
+ENCLS,EBLOCK,09H,4568,CF=mod ZF=mod,,1,"Sets ZF if SECS is in use or invalid, otherwise cleared. Sets CF if page is BLOCKED or not blockable, otherwise cleared. Clears PF, AF, OF, SF."
+ENCLS,ECREATE,00H,4571,none,,1,None
+ENCLS,EDBGRD,04H,4576,AF=0 CF=0 OF=0 PF=0 SF=0 ZF=mod,,1,"ZF is set if the page is MODIFIED or PENDING; RAX contains the error code. Otherwise ZF is cleared and RAX is set to 0. CF, PF, AF, OF, SF are cleared."
+ENCLS,EDBGWR,05H,4580,AF=0 CF=0 OF=0 PF=0 SF=0 ZF=mod,,1,"ZF is set if the page is MODIFIED or PENDING; RAX contains the error code. Otherwise ZF is cleared and RAX is set to 0. CF, PF, AF, OF, SF are cleared."
+ENCLS,EEXTEND,06H,4584,none,,1,None
+ENCLS,EINIT,02H,4587,AF=0 CF=0 OF=0 PF=0 SF=0 ZF=mod,,1,"ZF is cleared if successful, otherwise ZF is set and RAX contains the error code. CF, PF, AF, OF, SF are cleared."
+ENCLS,ELDB,07H,4595,ZF=mod,,1,"Sets ZF if unsuccessful, otherwise cleared and RAX returns error code. Clears CF, PF, AF, OF, SF."
+ENCLS,EMODPR,0EH,4600,ZF=mod,,1,"Sets ZF if page is not modifiable or if other SGX2 instructions are executing concurrently, otherwise cleared. Clears CF, PF, AF, OF, SF."
+ENCLS,EMODT,0FH,4603,ZF=mod,,1,"Sets ZF if page is not modifiable or if other SGX2 instructions are executing concurrently, otherwise cleared. Clears CF, PF, AF, OF, SF."
+ENCLS,EPA,0AH,4606,none,,1,None
+ENCLS,EREMOVE,03H,4608,ZF=mod,,1,"Sets ZF if unsuccessful, otherwise cleared and RAX returns error code. Clears CF, PF, AF, OF, SF."
+ENCLS,ETRACK,0CH,4611,ZF=mod,,1,"Sets ZF if SECS is in use or invalid, otherwise cleared. Clears CF, PF, AF, OF, SF."
+ENCLS,EUPDATESVN,18H,4613,AF=0 CF=1 OF=0 PF=0 SF=0 ZF=mod,,1,"ZF is set if an error occurs; otherwise, cleared. CF is set when the instruction is completed successfully and no SVN update was needed. PF, AF, OF, and SF are cleared. 41-68 Vol. 3D EUPDATESVN—Update CR_CPUSVN"
+ENCLS,EWB,0BH,4615,CF=mod ZF=mod,,1,"ZF is set if page is not blocked, not tracked, or a child is present. Otherwise cleared. CF is set if VA slot is previously occupied, Otherwise cleared."
+ENCLU,EACCEPT,05H,4620,ZF=mod,,1,"Sets ZF if page cannot be accepted, otherwise cleared. Clears CF, PF, AF, OF, SF EACCEPT—Accept Changes to an EPC Page Vol. 3D 41-77 INTEL® SGX INSTRUCTION REFERENCES"
+ENCLU,EACCEPTCOPY,07H,4625,ZF=mod,,1,"Sets ZF if page is not modifiable, otherwise cleared. Clears CF, PF, AF, OF, SF."
+ENCLU,EDECCSSA,09H,4629,none,,1,None
+ENCLU,EENTER,02H,4633,TF=0,,1,RFLAGS.TF is cleared on opt-out entry. 41-94 Vol. 3D EENTER—Enters an Enclave INTEL® SGX INSTRUCTION REFERENCES
+ENCLU,EGETKEY,01H,4645,AF=0 CF=0 OF=0 PF=0 SF=0 ZF=mod,,1,"ZF is cleared if successful, otherwise ZF is set. CF, PF, AF, OF, SF are cleared."
+ENCLU,EMODPE,06H,4655,none,,1,None
+ENCLU,EREPORT,00H,4658,none,,1,None
+ENCLU,ERESUME,03H,4663,TF=0,,1,RFLAGS.TF is cleared on opt-out entry
+ENCLU,EVERIFYREPORT2,08H,4675,none,,1,None.

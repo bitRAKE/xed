@@ -1,0 +1,152 @@
+source,instructions,cpuid_function,register_bit,feature_flag,pdf_page
+APM-Vol3-Table3-1,"ADCX, ADOX",0000_0007h (ECX=0),EBX[19],ADX,1406
+APM-Vol3-Table3-1,Bit Manipulation Instructions - group 1,0000_0007h (ECX=0),EBX[3],BMI1,1406
+APM-Vol3-Table3-1,Bit Manipulation Instructions - group 2,0000_0007h (ECX=0),EBX[8],BMI2,1406
+APM-Vol3-Table3-1,CLFLOPT,0000_0007_0,EBX[23],CLFLOPT,1406
+APM-Vol3-Table3-1,CLWB,0000_0007h (ECX=0),EBX[24],CLWB,1406
+APM-Vol3-Table3-1,CLZERO,8000_0008h,EBX[0],CLZERO,1406
+APM-Vol3-Table3-1,CMPXCHG8B,"0000_0001h, 8000_0001h",EDX[8],CMPXCHG8B,1406
+APM-Vol3-Table3-1,CMPXCHG16B,0000_0001h,ECX[13],CMPXCHG16B,1406
+APM-Vol3-Table3-1,CMOVcc (Conditional Moves),"0000_0001h, 8000_0001h",EDX[15],CMOV,1406
+APM-Vol3-Table3-1,CLFLUSH,0000_0001h,EDX[19],CLFSH,1406
+APM-Vol3-Table3-1,CRC32,0000_0001h,ECX[20],SSE42,1406
+APM-Vol3-Table3-1,"LAHF, SAHF",8000_0001h,ECX[0],LahfSahf,1406
+APM-Vol3-Table3-1,LZCNT,8000_0001h,ECX[5],ABM,1406
+APM-Vol3-Table3-1,Long Mode and Long Mode instructions,8000_0001h,EDX[29],LM,1406
+APM-Vol3-Table3-1,MCOMMIT,8000_0008h,EBX[8],MCOMMIT,1406
+APM-Vol3-Table3-1,"MFENCE, LFENCE",0000_0001h,EDX[26],SSE2,1406
+APM-Vol3-Table3-1,"MONITORX, MWAITX",8000_0001h,ECX[29],MONITORX,1406
+APM-Vol3-Table3-1,MOVBE,0000_0001h,ECX[22],MOVBE,1406
+APM-Vol3-Table3-1,MOVD1,"0000_0001h, 8000_0001h",EDX[23],MMX,1407
+APM-Vol3-Table3-1,MOVNTI,0000_0001h,EDX[26],SSE2,1407
+APM-Vol3-Table3-1,POPCNT,0000_0001h,ECX[23],POPCNT,1407
+APM-Vol3-Table3-1,PREFETCH / PREFETCHW2,8000_0001h,ECX[8],3DNowPrefetch,1407
+APM-Vol3-Table3-1,"RDFSBASE, RDGSBASE WRFSBASE, WRGSBASE",0000_0007h (ECX=0),EBX[0],FSGSBASE,1407
+APM-Vol3-Table3-1,RDPRU,8000_0008h,EBX[4],RDPRU,1407
+APM-Vol3-Table3-1,RDRAND,0000_0001h,ECX[30],RDRAND,1407
+APM-Vol3-Table3-1,RDSEED,0000_0007h (ECX=0),EBX[18],RDSEED,1407
+APM-Vol3-Table3-1,RDPID,0000_0007h (ECX=0),ECX[22],RDPID,1407
+APM-Vol3-Table3-1,SFENCE,0000_0001h,EDX[25],SSE,1407
+APM-Vol3-Table3-1,Trailing Bit Manipulation Instructions,8000_0001h,ECX[21],TBM,1407
+APM-Vol3-Table4-1,CET_SS,0000_0007_0,ECX[7],,1703
+APM-Vol3-Table4-1,"CLAC, STAC",0000_0007_0,EBX[20],,1703
+APM-Vol3-Table4-1,Long Mode and Long Mode instructions,8000_0001_EDX[LM],EDX[29],LM,1703
+APM-Vol3-Table4-1,INVPCID,0000_0007_0,EBX[10],,1703
+APM-Vol3-Table4-1,"INVLPGB, TLBSYNC",8000_0008_EBX[INVLPGB],EBX[3],INVLPGB,1703
+APM-Vol3-Table4-1,"MONITOR, MWAIT",0000_0001_ECX[MONITOR],ECX[3],MONITOR,1703
+APM-Vol3-Table4-1,"RDPKRU, WRPKRU",0000_0007_0,ECX[4],,1703
+APM-Vol3-Table4-1,"PSMASH, PVALIDATE, RMPADJUST, RMPUPDATE",8000_001F_EAX[SNP],EAX[4],SNP,1703
+APM-Vol3-Table4-1,RMPCHKD,8000_0025_EDX[RmpDirty],EDX[2],RmpDirty,1703
+APM-Vol3-Table4-1,RMPOPT,8000_0025_EDX[RmpOpt],EDX[0],RmpOpt,1703
+APM-Vol3-Table4-1,RMPQUERY,8000_001F_EAX[RMPQUERY],EAX[6],RMPQUERY,1703
+APM-Vol3-Table4-1,RMPREAD,8000_001F_EAX[RMPREAD],EAX[21],RMPREAD,1703
+APM-Vol3-Table4-1,"RDMSR, WRMSR",0000_0001_EDX[MSR],EDX[5],MSR,1703
+APM-Vol3-Table4-1,RDTSCP,8000_0001_EDX[RDTSCP],EDX[27],RDTSCP,1703
+APM-Vol3-Table4-1,"SKINIT, STGI",8000_0001_ECX[SKINIT],ECX[12],SKINIT,1703
+APM-Vol3-Table4-1,SVM Architecture and instructions,8000_0001_ECX[SVM],ECX[2],SVM,1703
+APM-Vol3-Table4-1,"SYSCALL, SYSRET",8000_0001_EDX[SysCallSysRet],EDX[11],SysCallSysRet,1703
+APM-Vol3-Table4-1,"SYSENTER, SYSEXIT",0000_0001_EDX[SysEnterSysExit],EDX[11],SysEnterSysExit,1703
+APM-Vol3-Table4-1,VMGEXIT,8000_001F[SEV-ES],EAX[3],SEV-ES,1703
+APM-Vol3-Table4-1,WBNOINVD,8000_0008_EBX[WBNOINVD],EBX[9],WBNOINVD,1703
+APM-Vol3-TableD-1,3DNow!,extended,EDX[31],3DNow,1947
+APM-Vol3-TableD-1,3DNow! Extensions,extended,EDX[30],3DNowExt,1947
+APM-Vol3-TableD-1,PREFETCH / PREFETCHW,extended,"ECX[8], EDX[29], or EDX[31]",3DNowPrefetch,1947
+APM-Vol3-TableD-1,LZCNT,extended,ECX[5],ABM,1947
+APM-Vol3-TableD-1,"ADCX, ADOX",0000_0007_0,EBX[19],ADX,1947
+APM-Vol3-TableD-1,AES,standard,ECX[25],AES,1947
+APM-Vol3-TableD-1,AVX,standard,ECX[28],AVX,1947
+APM-Vol3-TableD-1,AVX2,0000_0007_0,EBX[5],AVX2,1947
+APM-Vol3-TableD-1,AVX512 Byte/Word Packed Integer Instructions,0000_0007_0,EBX[30],AVX512BW,1947
+APM-Vol3-TableD-1,AVX512 Conflict Detection for Vectorizing Loops,0000_0007_0,EBX[28],AVX512CD,1947
+APM-Vol3-TableD-1,AVX512 Doubleword/Quadword Packed Integer instructions,0000_0007_0,EBX[17],AVX512DQ,1947
+APM-Vol3-TableD-1,AVX512 Base (Foundation),0000_0007_0,EBX[16],AVX512F,1947
+APM-Vol3-TableD-1,Extends AVX512 Instructions to 128 and 256 bits,0000_0007_0,EBX[31],AVX512VL,1947
+APM-Vol3-TableD-1,,,,"Notes: 1. standard = Fn0000_0001h; extended = Fn 8000_0001h; both means that both standard and extended CPUID func- tions return the same feature flag in the same bit position of the return value. For functions of the form xxxx_xxxx_x, the trailing digit is the value required in ECX. 2. Register and bit position of the return value that corresponds to the feature flag. 3. FCMOVcc instruction is supported if x87 and CMOVcc instructions are both supported. 4. XSAVE (and related) instructions require separate enablement.",1947
+APM-Vol3-TableD-1,"AVX512 BFloat16 Converts and Dot- Products VCVTNE(2)PS2BF16, VDPBF16PS",0000_0007_1,EAX[5],AVX512_BF16,1948
+APM-Vol3-TableD-1,"AVX512 Bit Manipulation VPOPCNT[BW], VPSHUFBITQMB",0000_0007_0,ECX[12],AVX512_BITALG,1948
+APM-Vol3-TableD-1,Bit Matrix Multiply VBMACOR16X16X16 VBMACXOR16X16X16 VBITREV,8000_0021,EAX[23],AVX512_BMM,1948
+APM-Vol3-TableD-1,"Vector Half Precision Instructions Most end in PH or SH, or convert to/from PH or SH.",0000_0007_0,EDX[23],AVX512_FP16,1948
+APM-Vol3-TableD-1,"Integer Fused Mul-Add VPMADD52HUQ, VPMADD52LUQ",0000_0007_0,EBX[21],AVX512_IFMA,1948
+APM-Vol3-TableD-1,"Vector Byte Permutation VPERMB, VPERMI2B, VPERMT2B, VPMULTISHIFTQB",0000_0007_0,ECX[1],AVX512_VBMI,1948
+APM-Vol3-TableD-1,"Vector Byte Permutation VPCOMPRESS[BW], VPEXPAND[BW], VPSHLD[WDQ], VPSHLDV[WDQ], VPSHRD[WDQ], VPSHRDV[WDQ]",0000_0007_0,ECX[6],AVX512_VBMI2,1948
+APM-Vol3-TableD-1,"Vector Neural Net Instructions VPDPBUSD, VPDPBUSDS, VPDPWSSD, VPDPWSSDS",0000_0007_0,ECX[11],AVX512_VNNI,1948
+APM-Vol3-TableD-1,,,,"Notes: 1. standard = Fn0000_0001h; extended = Fn 8000_0001h; both means that both standard and extended CPUID func- tions return the same feature flag in the same bit position of the return value. For functions of the form xxxx_xxxx_x, the trailing digit is the value required in ECX. 2. Register and bit position of the return value that corresponds to the feature flag. 3. FCMOVcc instruction is supported if x87 and CMOVcc instructions are both supported. 4. XSAVE (and related) instructions require separate enablement.",1948
+APM-Vol3-TableD-1,Bit Manipulation VPOPCNT[DQ],0000_0007_0,ECX[14],AVX512_VPOPCNTDQ,1949
+APM-Vol3-TableD-1,VP2INTERSECT [DQ] instructions,0000_0007_0,EDX[8],AVX512_VP2INTERSECT,1949
+APM-Vol3-TableD-1,AVX Integer Fused Multiply Add Instructions VPMADD52HUQ VPMADD52LUQ,0000_0007_1,EAX[23],AVX_IFMA,1949
+APM-Vol3-TableD-1,AVX convert instructions that generate no floating point exceptions VBCSTNEBF162PS VBCSTNESH2PS VCVTNEEBF162PS VCVTNEEPH2PS VCVTNEOBF162PS VCVTNEOPH2PS VCVTNEPS2BF16,0000_0007_1,EDX[5],AVX_NE_CONVERT,1949
+APM-Vol3-TableD-1,"AVX Neural Network Instructions VPDPBUSD, VPDPBUSDS, VPDPWSSD, VPDPWSSDS",0000_0007_1,EAX[4],AVX_VNNI,1949
+APM-Vol3-TableD-1,AVX Byte Vector Neural Network Instructions VPDPBSSD VPDPBSSDS VPDPBSUD VPDPBSUDS VPDPBUUD VPDPBUUDS,0000_0007_1,EDX[4],AVX_VNNI_INT8,1949
+APM-Vol3-TableD-1,Base Instruction set,—,—,BASE,1949
+APM-Vol3-TableD-1,"Bit Manipulation, group 1",0000_0007_0,EBX[3],BMI1,1949
+APM-Vol3-TableD-1,"Bit Manipulation, group 2",0000_0007_0,EBX[8],BMI2,1949
+APM-Vol3-TableD-1,,,,"Notes: 1. standard = Fn0000_0001h; extended = Fn 8000_0001h; both means that both standard and extended CPUID func- tions return the same feature flag in the same bit position of the return value. For functions of the form xxxx_xxxx_x, the trailing digit is the value required in ECX. 2. Register and bit position of the return value that corresponds to the feature flag. 3. FCMOVcc instruction is supported if x87 and CMOVcc instructions are both supported. 4. XSAVE (and related) instructions require separate enablement.",1949
+APM-Vol3-TableD-1,"Shadow Stack, CLRSSBSY, INCSSP, RDSSP, RSTORSSP, SAVEPREVSSP, SETSSBSY, WRSS, WRUSS",0000_0007_0,ECX[7],CET_SS,1950
+APM-Vol3-TableD-1,CLFLUSHOPT,0000_0007_0,EBX[23],CLFLOPT,1950
+APM-Vol3-TableD-1,"CLFLUSH, CLWB",standard,EDX[19],CLFSH,1950
+APM-Vol3-TableD-1,CLWB,0000_0007_0,EBX[24],CLWB,1950
+APM-Vol3-TableD-1,CLZERO,8000_0008,EBX[0],CLZERO,1950
+APM-Vol3-TableD-1,CMPXCHG8B,both,EDX[8],CMPXCHG8B,1950
+APM-Vol3-TableD-1,CMPXCHG16B,standard,ECX[13],CMPXCHG16B,1950
+APM-Vol3-TableD-1,CMOVcc,both,EDX[15],CMOV,1950
+APM-Vol3-TableD-1,16-bit floating-point conversion,standard,ECX[29],F16C,1950
+APM-Vol3-TableD-1,FMA,standard,ECX[12],FMA,1950
+APM-Vol3-TableD-1,FMA4,extended,ECX[16],FMA4,1950
+APM-Vol3-TableD-1,x87,both,EDX[0],FPU,1950
+APM-Vol3-TableD-1,FS and GS base read and write,0000_0007_0,EBX[0],FSGSBASE,1950
+APM-Vol3-TableD-1,FXSAVE / FXRSTOR,both,EDX[24],FXSR,1950
+APM-Vol3-TableD-1,"Galois Field New Instructions (V)GF2P8AFFINE(INV)Q B, (V)GF2P8MULB",0000_0007_0,ECX[8],GFNI,1950
+APM-Vol3-TableD-1,"INVLPGB, TLBSYNC",8000_0008,EBX[3],INVLPGB,1950
+APM-Vol3-TableD-1,INVPCID,0000_0007_0,EBX[10],INVPCID,1950
+APM-Vol3-TableD-1,LAHF / SAHF,extended,ECX[0],LahfSahf,1950
+APM-Vol3-TableD-1,Long Mode,extended,EDX[29],LM,1950
+APM-Vol3-TableD-1,MCOMMIT,8000_0008,EBX[8],MCOMMIT,1950
+APM-Vol3-TableD-1,MMX,both,EDX[23],MMX,1950
+APM-Vol3-TableD-1,MMX Extensions,extended,EDX[22],MmxExt,1950
+APM-Vol3-TableD-1,MONITOR / MWAIT,standard,ECX[3],MONITOR,1950
+APM-Vol3-TableD-1,MONITORX / MWAITX,extended,ECX[29],MONITORX,1950
+APM-Vol3-TableD-1,MOVBE,standard,ECX[22],MOVBE,1950
+APM-Vol3-TableD-1,"MOVDIRI, MOVDIR64B",0000_0007_0,ECX[27],MOVDIR,1950
+APM-Vol3-TableD-1,,,,"Notes: 1. standard = Fn0000_0001h; extended = Fn 8000_0001h; both means that both standard and extended CPUID func- tions return the same feature flag in the same bit position of the return value. For functions of the form xxxx_xxxx_x, the trailing digit is the value required in ECX. 2. Register and bit position of the return value that corresponds to the feature flag. 3. FCMOVcc instruction is supported if x87 and CMOVcc instructions are both supported. 4. XSAVE (and related) instructions require separate enablement.",1950
+APM-Vol3-TableD-1,RDMSR / WRMSR,both,EDX[5],MSR,1951
+APM-Vol3-TableD-1,"RDPKRU, WRPKRU",0000_0007_0,ECX[4],OSPKE,1951
+APM-Vol3-TableD-1,PCLMULQDQ,standard,ECX[1],PCLMULQDQ,1951
+APM-Vol3-TableD-1,POPCNT,standard,ECX[23],POPCNT,1951
+APM-Vol3-TableD-1,RDPID,0000_0007_0,ECX[22],RDPID,1951
+APM-Vol3-TableD-1,RDPRU,8000_0008,EBX[4],RDPRU,1951
+APM-Vol3-TableD-1,RDRAND,standard,ECX[30],RDRAND,1951
+APM-Vol3-TableD-1,RDTSCP,extended,EDX[27],RDTSCP,1951
+APM-Vol3-TableD-1,RDSEED,0000_0007_0,EBX[18],RDSEED,1951
+APM-Vol3-TableD-1,VMGEXIT,8000_001F,EAX[3],SevEs,1951
+APM-Vol3-TableD-1,SHA,0000_0007_0,EBX[29],SHA,1951
+APM-Vol3-TableD-1,SKINIT / STGI,extended,ECX[12],SKINIT,1951
+APM-Vol3-TableD-1,"CLAC, STAC",0000_0007_0,EBX[20],SMAP,1951
+APM-Vol3-TableD-1,"PSMASH, PVALIDATE, RMPADJUST, RMPUPDATE",8000_001F,EAX[4],SNP,1951
+APM-Vol3-TableD-1,RMPCHKD,8000_0025,EDX[2],SNP,1951
+APM-Vol3-TableD-1,RMPOPT,8000_0025,EDX[0],SNP,1951
+APM-Vol3-TableD-1,RMPQUERY,8000_001F,EAX[6],SNP,1951
+APM-Vol3-TableD-1,RMPREAD,8000_001F,EAX[21],SNP,1951
+APM-Vol3-TableD-1,SSE1,standard,EDX[25],SSE,1951
+APM-Vol3-TableD-1,SSE2,standard,EDX[26],SSE2,1951
+APM-Vol3-TableD-1,SSE3,standard,ECX[0],SSE3,1951
+APM-Vol3-TableD-1,SSSE3,standard,ECX[9],SSSE3,1951
+APM-Vol3-TableD-1,SSE4A,extended,ECX[6],SSE4A,1951
+APM-Vol3-TableD-1,SSE4.1,standard,ECX[19],SSE41,1951
+APM-Vol3-TableD-1,SSE4.2,standard,ECX[20],SSE42,1951
+APM-Vol3-TableD-1,Secure Virtual Machine,extended,ECX[2],SVM,1951
+APM-Vol3-TableD-1,SYSCALL / SYSRET,extended,EDX[11],SysCallSysRet,1951
+APM-Vol3-TableD-1,SYSENTER / SYSEXIT,standard,EDX[11],SysEnterSysExit,1951
+APM-Vol3-TableD-1,Trailing bit manipulation,extended,ECX[21],TBM,1951
+APM-Vol3-TableD-1,RDTSC,both,EDX[4],TSC,1951
+APM-Vol3-TableD-1,VAES 256-bit instructions,0000_0007_0,ECX[9],VAES,1951
+APM-Vol3-TableD-1,VPCMULQDQ 256-bit instructions,0000_0007_0,ECX[10],VPCMULQDQ,1951
+APM-Vol3-TableD-1,WBNOINVD,8000_0008,EBX[9],WBNOINVD,1951
+APM-Vol3-TableD-1,,,,"Notes: 1. standard = Fn0000_0001h; extended = Fn 8000_0001h; both means that both standard and extended CPUID func- tions return the same feature flag in the same bit position of the return value. For functions of the form xxxx_xxxx_x, the trailing digit is the value required in ECX. 2. Register and bit position of the return value that corresponds to the feature flag. 3. FCMOVcc instruction is supported if x87 and CMOVcc instructions are both supported. 4. XSAVE (and related) instructions require separate enablement.",1951
+APM-Vol3-TableD-1,FCMOVcc3,both,EDX[0] && EDX[15],x87 && CMOV,1952
+APM-Vol3-TableD-1,XGETBV w/ ECX=1,0000_000D_1,EAX[2],XGETBV w/ ECX=1,1952
+APM-Vol3-TableD-1,XOP,extended,ECX[11],XOP,1952
+APM-Vol3-TableD-1,XSAVE / XRSTOR4,standard,ECX[26],XSAVE,1952
+APM-Vol3-TableD-1,XSAVEC,0000_000D_1,EAX[1],XSAVEC,1952
+APM-Vol3-TableD-1,XSAVEOPT,0000_000D_1,EAX[0],XSAVEOPT,1952
+APM-Vol3-TableD-1,XSAVES / XRSTORS,0000_000D_1,EAX[3],XSAVES/XRSTORS,1952
+APM-Vol3-TableD-1,,,,"Notes: 1. standard = Fn0000_0001h; extended = Fn 8000_0001h; both means that both standard and extended CPUID func- tions return the same feature flag in the same bit position of the return value. For functions of the form xxxx_xxxx_x, the trailing digit is the value required in ECX. 2. Register and bit position of the return value that corresponds to the feature flag. 3. FCMOVcc instruction is supported if x87 and CMOVcc instructions are both supported. 4. XSAVE (and related) instructions require separate enablement.",1952
